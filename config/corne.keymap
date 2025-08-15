@@ -48,7 +48,7 @@
 
         COLEMAK_MAC {
             bindings = <
-&kp ESCAPE        &kp Q  &kp W  &kp F    &kp P      &kp B                  &kp J                     &kp L        &kp U      &kp Y    &kp SQT    &trans
+&kp ESCAPE        &kp Q  &kp W  &kp F    &kp P      &kp B                  &kp J                     &kp L        &kp U      &kp Y    &kp SQT    &kp BACKSPACE
 &kp TAB           &kp A  &kp R  &kp S    &kp T      &kp G                  &kp M                     &kp N        &kp E      &kp I    &kp O      &trans
 &kp LEFT_COMMAND  &kp Z  &kp X  &kp C    &kp D      &kp V                  &kp K                     &kp H        &kp COMMA  &kp DOT  &kp SLASH  &to 1
                                 &kp ESC  &lt 2 TAB  &mt LG(SPACE) SPACE    &mt LEFT_SHIFT BACKSPACE  &lt 3 ENTER  &kp DEL
