@@ -14,13 +14,13 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: corne_central_dongle prospector_adapter
+    shield: corne_dongle prospector_adapter
 
   - board: nice_nano_v2
-    shield: corne_peripheral_left nice_view_adapter nice_view
+    shield: corne_left nice_view_adapter nice_view
 
   - board: nice_nano_v2
-    shield: corne_peripheral_right nice_view_adapter nice_view
+    shield: corne_left nice_view_adapter nice_view
 
 # These are needed for the boards to initially connect to each other 
 # https://zmk.dev/docs/development/hardware-integration/dongle#:~:text=Before%20flashing%20your%20new%20firmware%2C%20you%20need%20to%20flash%20settings_reset%20firmware%20on%20all%20devices%20to%20ensure%20they%20can%20pair%20to%20each%20other.
