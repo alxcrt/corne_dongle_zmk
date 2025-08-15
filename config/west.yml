@@ -1,16 +1,17 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: carrefinho                            # <--- add this
-      url-base: https://github.com/carrefinho     # <--- and this
+    - name: alxcrt
+      url-base: https://github.com/alxcrt
+    - name: carrefinho # <--- add this for dongle
+      url-base: https://github.com/carrefinho # <--- and this dongle
   projects:
     - name: zmk
-      remote: zmkfirmware
+      remote: alxcrt
       revision: main
       import: app/west.yml
-    - name: prospector-zmk-module                 # <--- and these
-      remote: carrefinho                          # <---
-      revision: main                              # <---
+
+    - name: prospector-zmk-module # <--- and these for dongle
+      remote: carrefinho # <---
+      revision: main # <---
   self:
     path: config
